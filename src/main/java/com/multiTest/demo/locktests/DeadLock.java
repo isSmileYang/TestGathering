@@ -1,4 +1,4 @@
-package com.multiTest.demo.LocksTest;
+package com.multiTest.demo.locktests;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,9 +33,7 @@ public class DeadLock {
                             log.info("1"); }
                     }
                 }
-            });
-            t1.state = 0;
-            t2.stare = 0;
+            }
             //JVM线程调度t1,t2先执行哪个线程不确定。td2的run()可能在td1的run()之前运行
             t1.start();
             t2.start();
