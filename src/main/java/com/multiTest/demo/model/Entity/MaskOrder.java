@@ -1,4 +1,4 @@
-package com.multiTest.demo.POJO.Entity;
+package com.multiTest.demo.model.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

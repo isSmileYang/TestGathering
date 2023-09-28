@@ -1,12 +1,11 @@
 package com.multiTest.demo.seckillservice;
 
-import com.multiTest.demo.POJO.AtomicStock;
-import com.multiTest.demo.POJO.Entity.MaskOrder;
-import com.multiTest.demo.POJO.Entity.Masks;
-import com.multiTest.demo.POJO.Entity.Purchaser;
-import com.multiTest.demo.POJO.SecKillEnum;
+import com.multiTest.demo.model.AtomicStock;
+import com.multiTest.demo.model.Entity.MaskOrder;
+import com.multiTest.demo.model.Entity.Masks;
+import com.multiTest.demo.model.Entity.Purchaser;
+import com.multiTest.demo.model.SecKillEnum;
 import com.multiTest.demo.mapper.SecKillMapper;
-import com.sun.prism.impl.Disposer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;

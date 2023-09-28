@@ -1,6 +1,7 @@
-package com.multiTest.demo.POJO;
+package com.multiTest.demo.model;
 
-import com.multiTest.demo.POJO.Entity.Masks;
+import com.multiTest.demo.mapper.SecKillMapper;
+import com.multiTest.demo.model.Entity.Masks;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

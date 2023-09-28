@@ -1,9 +1,9 @@
 package com.multiTest.demo.seckillcontoller;
 
-import com.multiTest.demo.POJO.Message;
-import com.multiTest.demo.POJO.SecKillEnum;
-import com.multiTest.demo.POJO.SecKillRequest;
-import com.multiTest.demo.POJO.SecKillResponse;
+import com.multiTest.demo.model.Message;
+import com.multiTest.demo.model.SecKillEnum;
+import com.multiTest.demo.model.SecKillRequest;
+import com.multiTest.demo.model.SecKillResponse;
 import com.multiTest.demo.seckillservice.SecKillService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

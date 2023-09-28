@@ -1,7 +1,7 @@
 package com.multiTest.demo.mapper;
 
-import com.multiTest.demo.POJO.Entity.Masks;
-import com.multiTest.demo.POJO.Entity.Purchaser;
+import com.multiTest.demo.model.Entity.Masks;
+import com.multiTest.demo.model.Entity.Purchaser;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
